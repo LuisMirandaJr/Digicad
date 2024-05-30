@@ -1,0 +1,42 @@
+.grid-container{
+
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 20px;
+    
+}
+
+.item1{
+
+    background-color: aqua;
+    grid-column: span 3;
+}
+
+.item2{
+
+    background-color: black;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.item3{
+    background-color: green;
+
+
+}
+
+
+.item4{
+
+    background-color: red;
+
+
+}
+
+
+
+
+
+
+
